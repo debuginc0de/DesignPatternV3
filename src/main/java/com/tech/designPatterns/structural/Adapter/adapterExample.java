@@ -4,7 +4,7 @@ package com.tech.designPatterns.structural.Adapter;
 
 public class adapterExample {
 
-    public class WeightingMachineImpl implements WeightMachine{
+    public static class WeightingMachineImpl implements WeightMachine{
         int weight=0;
 
         public WeightingMachineImpl(int weightInSource) {
@@ -18,7 +18,7 @@ public class adapterExample {
 
     }
 
-    public class WeightMachineAdapterImpl implements WeightMachineAdapter{
+    public static class WeightMachineAdapterImpl implements WeightMachineAdapter{
         WeightMachine weightMachine;
         public WeightMachineAdapterImpl(WeightMachine weightMachine){
             this.weightMachine=weightMachine;

@@ -7,7 +7,7 @@ package com.tech.designPatterns.structural.Flyweight;
 
 public class flyweightExample {
     public static void main(String[] args) {
-        Integer a=Integer.valueOf(-128);
+        Integer a= -128;
         Integer b=Integer.valueOf(-128);
         System.out.println(a==b); //true
 
